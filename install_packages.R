@@ -1,5 +1,4 @@
-#' Installing R packages to R
-#' 
+#' Setting up R and installing R packages
 
 # basic
 install.packages("Rcpp", dependencies = T)
@@ -51,3 +50,12 @@ credentials::set_github_pat() # worked
 usethis::gh_token_help()
 usethis::git_sitrep()
 gh::gh_whoami()
+
+# Some personal preference
+# RStudio > Options
+# - uncheck "Always save history"
+
+# For building R packages
+# RStudio > Build > Configure Build Tools
+# - check "Generate documents with Roxygen"
+# - within "Configure", check the last option "Install and Restart"
