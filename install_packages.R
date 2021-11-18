@@ -12,6 +12,9 @@ install.packages("ggpubr", dependencies = T)
 install.packages("sp", dependencies = T)
 install.packages("sf", dependencies = T)
 install.packages("gsl", dependencies = T)
+install.packages("rgdal", dependencies = T)
+install.packages("raster", dependencies = T)
+install.packages("rasterVis", dependencies = T)
 
 # movement
 install.packages("adehabitatHR", dependencies = T)
