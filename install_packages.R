@@ -7,6 +7,7 @@ install.packages("devtools", dependencies = T)
 # tidy and plot
 install.packages("tidyverse", dependencies = T)
 install.packages("ggpubr", dependencies = T)
+install.packages("GGally", dependencies = T)
 
 # spatial
 install.packages("sp", dependencies = T)
