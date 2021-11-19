@@ -27,6 +27,11 @@ install.packages("move", dependencies = T)
 library(devtools)
 install_github("EliGurarie/smoove")
 
+# statistics
+install.packages("lme4", dependencies = T)
+install.packages("bbmle", dependencies = T)
+install.packages("lsr", dependencies = T) # correlate is quite useful
+
 # using git
 # htps://happygitwithr.com/credential-caching.html#credential-caching
 
