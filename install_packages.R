@@ -16,6 +16,8 @@ install.packages("gsl", dependencies = T)
 install.packages("rgdal", dependencies = T)
 install.packages("raster", dependencies = T)
 install.packages("rasterVis", dependencies = T)
+install.packages("rpostgis", dependencies = T) # or
+remotes::install_github("mablab/rpostgis")
 
 # movement
 install.packages("adehabitatHR", dependencies = T)
