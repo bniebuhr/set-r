@@ -23,23 +23,23 @@ remotes::install_github("mablab/rpostgis") # communication r-postgis, newest sta
 install.packages("rgrass7", dependencies = T) # communication r-GRASS GIS
 
 # landscape
-install.packages("landscapemetrics", dependencies = T)
-install.packages("NLMR", dependencies = T)
-install.packages("landscapetools", dependencies = T)
+install.packages("landscapemetrics", dependencies = T) # calculate landscape metrics in R (similar to FRAGSTATS)
+install.packages("NLMR", dependencies = T) # neutral landscape models
+install.packages("landscapetools", dependencies = T) # tools to deal with and plot landscapes
 
 # movement
-install.packages("adehabitatHR", dependencies = T)
-install.packages("adehabitatLT", dependencies = T)
-install.packages("amt", dependencies = T)
-install.packages("marcher", dependencies = T)
+install.packages("adehabitatHR", dependencies = T) # home range tools
+install.packages("adehabitatLT", dependencies = T) # trajetory representation tools
+install.packages("amt", dependencies = T) # animal movement tools
+install.packages("marcher", dependencies = T) # 
 install.packages("move", dependencies = T)
 
 library(devtools)
 install_github("EliGurarie/smoove")
 
 # statistics
-install.packages("lme4", dependencies = T)
-install.packages("bbmle", dependencies = T)
+install.packages("lme4", dependencies = T) # for linear mixed models
+install.packages("bbmle", dependencies = T) # Ben Bolker mle functions
 install.packages("lsr", dependencies = T) # correlate is quite useful
 
 # using git
