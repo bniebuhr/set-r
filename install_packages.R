@@ -5,19 +5,26 @@ install.packages("Rcpp", dependencies = T)
 install.packages("devtools", dependencies = T)
 
 # tidy and plot
-install.packages("tidyverse", dependencies = T)
-install.packages("ggpubr", dependencies = T)
-install.packages("GGally", dependencies = T)
+install.packages("tidyverse", dependencies = T) # tidy data management and plot
+install.packages("ggpubr", dependencies = T) # additional plot functions
+install.packages("GGally", dependencies = T) # additional plot functions
 
 # spatial
-install.packages("sp", dependencies = T)
-install.packages("sf", dependencies = T)
+install.packages("sp", dependencies = T) # basic old spatial support analyses
+install.packages("sf", dependencies = T) # mainly vector analysis
 install.packages("gsl", dependencies = T)
-install.packages("rgdal", dependencies = T)
-install.packages("raster", dependencies = T)
-install.packages("rasterVis", dependencies = T)
-install.packages("rpostgis", dependencies = T) # or
-remotes::install_github("mablab/rpostgis")
+install.packages("rgdal", dependencies = T) # communication with GDAL
+install.packages("raster", dependencies = T) # raster analysis
+install.packages("terra", dependencies = T) # raster analysis, new and fast version
+install.packages("rasterVis", dependencies = T) # visualization of rasters
+install.packages("tmap", dependencies = T) # visualization of spatial data
+install.packages("rpostgis", dependencies = T) # communication r-postgis
+remotes::install_github("mablab/rpostgis") # communication r-postgis, newest stable version
+install.packages("rgrass7", dependencies = T) # communication r-GRASS GIS
+
+# landscape
+install.packages("landscapemetrics", dependencies = T)
+install.packages("NLMR", dependencies = T)
 
 # movement
 install.packages("adehabitatHR", dependencies = T)
