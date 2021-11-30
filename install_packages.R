@@ -25,6 +25,7 @@ install.packages("rgrass7", dependencies = T) # communication r-GRASS GIS
 # landscape
 install.packages("landscapemetrics", dependencies = T)
 install.packages("NLMR", dependencies = T)
+install.packages("landscapetools", dependencies = T)
 
 # movement
 install.packages("adehabitatHR", dependencies = T)
