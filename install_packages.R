@@ -16,6 +16,7 @@ install.packages("gsl", dependencies = T)
 install.packages("rgdal", dependencies = T) # communication with GDAL
 install.packages("raster", dependencies = T) # raster analysis
 install.packages("terra", dependencies = T) # raster analysis, new and fast version
+install.packages("stars", dependencies = T) # analysis of spatiotemporal cubes
 install.packages("rasterVis", dependencies = T) # visualization of rasters
 install.packages("tmap", dependencies = T) # visualization of spatial data
 install.packages("rpostgis", dependencies = T) # communication r-postgis
