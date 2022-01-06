@@ -33,7 +33,8 @@ install.packages("adehabitatHR", dependencies = T) # home range tools
 install.packages("adehabitatLT", dependencies = T) # trajetory representation tools
 install.packages("amt", dependencies = T) # animal movement tools
 install.packages("marcher", dependencies = T) # 
-install.packages("move", dependencies = T)
+install.packages("move", dependencies = T) 
+install.packages("ctmm", dependencies = T) # continuous time movement models
 
 library(devtools)
 install_github("EliGurarie/smoove")
