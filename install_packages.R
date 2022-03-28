@@ -1,5 +1,7 @@
 #' Setting up R and installing R packages
 
+library(devtools)
+
 # basic
 install.packages("Rcpp", dependencies = T)
 install.packages("devtools", dependencies = T)
@@ -22,6 +24,7 @@ install.packages("tmap", dependencies = T) # visualization of spatial data
 install.packages("rpostgis", dependencies = T) # communication r-postgis
 remotes::install_github("mablab/rpostgis") # communication r-postgis, newest stable version
 install.packages("rgrass7", dependencies = T) # communication r-GRASS GIS
+devtools::install_github("NINAnor/oneimpact", ref = "HEAD") # oneimpact
 
 # landscape
 install.packages("landscapemetrics", dependencies = T) # calculate landscape metrics in R (similar to FRAGSTATS)
@@ -36,15 +39,14 @@ install.packages("marcher", dependencies = T) #
 install.packages("move", dependencies = T) 
 install.packages("ctmm", dependencies = T) # continuous time movement models
 install.packages("recurse", dependencies = T) # revisitation analyses
-
-
-library(devtools)
-install_github("EliGurarie/smoove")
+# smoove
+devtools::install_github("EliGurarie/smoove")
 
 # statistics
 install.packages("lme4", dependencies = T) # for linear mixed models
 install.packages("bbmle", dependencies = T) # Ben Bolker mle functions
 install.packages("lsr", dependencies = T) # correlate is quite useful
+
 
 # using git
 # htps://happygitwithr.com/credential-caching.html#credential-caching
