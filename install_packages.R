@@ -35,6 +35,8 @@ install.packages("amt", dependencies = T) # animal movement tools
 install.packages("marcher", dependencies = T) # 
 install.packages("move", dependencies = T) 
 install.packages("ctmm", dependencies = T) # continuous time movement models
+install.packages("recurse", dependencies = T) # revisitation analyses
+
 
 library(devtools)
 install_github("EliGurarie/smoove")
