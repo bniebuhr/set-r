@@ -84,3 +84,11 @@ gh::gh_whoami()
 # RStudio > Build > Configure Build Tools
 # - check "Generate documents with Roxygen"
 # - within "Configure", check the last option "Install and Restart"
+
+# Setup .Renviorn
+# Edit Renviron
+usethis::edit_r_environ()
+# tmp directories
+TMPDIR=/data/scratch/
+TMP=/data/scratch/
+TEMP=/data/scratch/
